@@ -130,7 +130,7 @@ export PATH="/usr/local/opt/libpq/bin:$PATH"
 eval "$(rbenv init - zsh)"
 
 # Alias for nvim
-alias nv="nvim"
+alias nv="sudo nvim"
 # Alias to kill all sessions
 alias tmkill="tmux kill-server"
 
